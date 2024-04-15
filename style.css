@@ -1,0 +1,216 @@
+#icon{
+
+   float: right;
+   margin-left: 10px;
+   margin-bottom: 40px;
+   margin-right: 0px;
+  
+   right: 10px;
+   
+   top: 50px;
+ 
+position: sticky;
+
+}
+
+#head2{
+    display: inline; margin: 10px; padding: 0;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+.back-to-top {
+	
+    margin-top: 40px;
+    float: right;
+    margin-right: 40px;
+	bottom: 2rem;
+	right: 2rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #dc143c;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+    position: fixed;
+    bottom: 50;
+}
+
+.back-to-top span {
+	color: #fff;
+	font-size: 3rem;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+	background-color: #be1a3b;
+}
+.back-to-top:hover span {
+	transform: translateY(-4px);
+}
+
+
+#header{
+
+    margin:1px;
+}
+
+.inline-heading,
+.inline-link {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#about-link {
+    color:chocolate ; /* Change the color to your desired value */
+    /* Add any additional styles for the link here */
+}
+
+#ins{
+    float: left;
+}
+
+.about{
+    text-align:justify ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#program{
+
+    text-align: center;
+}
+#par{
+    text-align:justify ;
+    margin-left: 70px;
+    margin-right: 250px;
+}
+
+
+.framee{
+    width: 400px;;
+     height:400px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 48%; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+
+
+.main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -20px; /* Adjust distance from the right side */
+    width: 20px; /* Adjust the width of the decoration */
+    height: 100%;
+    background-color: #f0f0f0; /* Adjust the color as needed */
+    border-radius: 0 8px 8px 0; /* Adjust border radius for the decorative element */
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+  
+    #icon{
+        display: none;
+    }
+
+  
+    
+#ins{
+    float:none;
+}
+
+.list{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    text-align: center;
+}
+
+.main iframe {
+    display: block;
+    margin: 0 auto;
+     /* Center the iframe horizontally */
+    width: 200;
+    }
+
+
+#par{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:justify 
+}
+
+.button{
+   
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+
+.framee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+     height:250px;
+     margin-bottom: 40px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    
+
+.framee{
+    
+     width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+}
